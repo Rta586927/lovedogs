@@ -1,0 +1,179 @@
+#title{
+    background-color: #ff4c68;
+    color: #ffffff ;
+}
+
+
+h1{
+    font-family: "Montserrat" ;
+    font-size:3.5rem  ;
+    line-height: 1.5 ;
+    font-weight: 600 ;
+   
+
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    
+}
+
+.container-fluid{
+  
+    padding: 3% 15% ;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: UBUNTU;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4rem 0;
+   
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.dw-btn{
+    margin: 5% 3% 3% 0%;
+}
+
+
+/* Mob img */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+.mob-img{
+
+
+    width: 60%;
+    transform: rotate(25deg);
+    
+   
+    
+  
+}
+
+#features{
+
+    
+    color: #000000;
+    padding: 7% 15%;
+    
+    
+
+}
+
+h3{
+    font-family: 'Montserrat';   
+    font-weight: 800; 
+    
+}
+
+p{
+    color: #8f8f8f;}
+
+.ico{
+    color:  #ff4c68;
+    margin-bottom: 1rem;
+}
+.ico:hover{
+    color: #ee0225;
+}
+
+/* testimonial section */
+
+#testimonials{
+    
+    text-align: center;
+    background-color:   #ff4c68;
+    color: #ffffff;
+}
+
+.dog-img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    
+    padding: 7% 15% ;  
+
+}
+
+
+/* press */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.br{
+    width: 15% ;
+    margin: 10px 20px 20px 10px;
+}
+
+#pricing{
+    padding: 5% 15% ;
+    background-color: #ff4c68 ;
+    
+  text-align: center;
+
+}
+
+.crt{
+    color: #292626;
+    padding-top: 8%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .mob-img {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+
+  #cta{
+
+    background-color:  #ff4c68;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  .cta-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+  }
+
+  #footer{
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  .social-icon{
+    padding: 20px 10px;
+  }
